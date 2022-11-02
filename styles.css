@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* INPUT 1 PAGE STYLING */
+
+.page_heading {
+    position: relative;
+    text-decoration: none;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #0048D9;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    font-family: scope-one;
+}
+
+.event_name {
+    position: relative;
+    color: #6F7482;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    margin-top: 150px;
+}
+
+.Name_btn {
+    position: relative;
+    background-color: #f7f8f9;
+    color: #B8BCCA;
+    width: 350px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.Name_btn:hover{
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+.event_summary {
+    position: relative;
+    color: #6F7482;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.No_btn {
+    position: relative;
+    background-color: #f7f8f9;
+    color: #B8BCCA;
+    width: 350px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.No_btn:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.event_logo {
+    position: relative;
+    margin-top: 80px;
+    color: #6F7482;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.select_btn {
+    position: relative;
+    justify-content: left;
+    padding: 10px;
+    width: 300px;
+    background-color: #f7f8f9;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.select_btn:hover {
+    cursor: pointer;
+}
+
+.select {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    background-color: #0048D9;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    margin-left: -220px;
+}
+
+.upload1_btn {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    height: 37px;
+    margin-top: 110px;
+    margin-left: 10px;
+}
+
+.upload1_btn:hover {
+    cursor: pointer;
+    background-color: #0048D9;
+    color: white;
+}
+
+.inline_first_container {
+    display: flex;
+    position: relative;
+    margin-left: 22%;
+    width: 450px;
+}
+
+.inline_second_container {
+    display: flex;
+    position: relative;
+    width: 450px;
+}
+
+.campus_logo {
+    position: relative;
+    margin-top: 80px;
+    color: #6F7482;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.upload2_btn {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    height: 37px;
+    margin-top: 110px;
+    margin-left: 10px;
+}
+
+.upload2_btn:hover {
+    cursor: pointer;
+    background-color: #0048D9;
+    color: white;
+}
+
+.inline_container {
+    width: 100%;
+    display: flex;
+}
+
+.next_btn_body{
+    position: relative;
+    background-color:  #f7f8f9;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    height: 150px;
+    text-align: center;
+}
+.next_btn{
+    background-color:  #0048D9;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    width: 180px;
+    height: 40px;
+    margin-top: 60px;
+}
+.next_btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .page_heading {
+        text-align: left;
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .event_name {
+        margin-left: 20px;
+    }
+
+    .Name_btn {
+        width: 350px;
+    }
+
+    .event_summary {
+        margin-left: 20px;
+    }
+
+    .No_btn {
+        width: 350px;
+    }
+
+    .inline_container {
+        display: block;
+    }
+
+    .inline_first_container {
+        display: block;
+        margin-left: 20px;
+        width: 500px;
+    }
+    .select{
+        margin-left: -255px;
+    }
+    .event_logo {
+        margin-top: 35px;
+        width: 380px;
+    }
+
+    .select_btn {
+        width: 350px;
+    }
+    .upload1_btn{
+        margin-top: 20px;
+        margin-left: 270px;
+    }
+    .inline_second_container{
+        display: block;
+        margin-left: 20px;
+        width: 500px;
+    }
+    .campus_logo{
+        margin-top: 20px;
+    }
+    .upload2_btn{
+        margin-top: 20px;
+        margin-left: 270px;
+    }
+    .next_btn_body{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+/* Input 2 page styling */
+
+.event_date {
+    position: relative;
+    color: #6F7482;
+    margin-left: 37%;
+    letter-spacing: 1px;
+    margin-top: 150px;
+    font-size: 14px;
+}
+
+.date_btn {
+    position: relative;
+    background-color: #f7f8f9;
+    color: #B8BCCA;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.date_btn:hover {
+    cursor: pointer;
+}
+
+.event_time {
+    position: relative;
+    color: #6F7482;
+    margin-left: 37%;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.time_btn {
+    position: relative;
+    background-color: #f7f8f9;
+    color: #B8BCCA;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.time_btn:hover {
+    cursor: pointer;
+}
+
+.mode_btn {
+    position: relative;
+    padding: 10px;
+    width: 180px;
+    background-color: #f7f8f9;
+    margin-top: 10px;
+    color: #6F7482;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.mode_btn:hover {
+    cursor: pointer;
+}
+
+.mode_heading {
+    position: relative;
+    margin-top: 40px;
+    color: #6F7482;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.location_btn {
+    position: relative;
+    padding: 10px;
+    width: 190px;
+    background-color: #f7f8f9;
+    margin-top: 10px;
+    border: none;
+    font-size: 14px;
+    color: #6F7482;
+    border-radius: 5px;
+}
+
+.location_btn:hover {
+    cursor: pointer;
+}
+
+
+.location_heading {
+    position: relative;
+    margin-top: 40px;
+    color: #6F7482;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.registration_heading{
+    position: relative;
+    margin-top: 40px;
+    color: #6F7482;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.set_deadline_btn{
+    position: relative;
+    padding: 10px;
+    width: 400px;
+    background-color: #f7f8f9;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6F7482;
+    border: none;
+    border-radius: 5px;
+}
+.input2_inline_container {
+    display: flex;
+    position: relative;
+    margin-left: 37%;
+    width: 400px;
+}
+.input2_first_container {
+    position: relative;
+    width: 40px;
+}
+
+.input2_second_container {
+    position: relative;
+    width: 450px;
+    margin-left: 42%;
+}
+.registration_container{
+    position: relative;
+    margin-left: 37%;
+    width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .page_heading {
+        text-align: left;
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .event_date {
+        margin-left: 20px;
+    }
+
+    .date_btn {
+        width: 350px;
+    }
+
+    .event_time {
+        margin-left: 20px;
+    }
+
+    .time_btn {
+        width: 350px;
+    }
+    .input2_first_container {
+        margin-left: -37%;
+    }
+    .mode_heading {
+        margin-top: 30px;
+        width: 10px;
+        margin-left: 20px;
+    }
+
+    .mode_btn {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    .input2_second_container{
+        margin-left: 37%;
+        width: 400px;
+    }
+    .location_heading{
+        margin-top: 30px;
+    }
+    .location_btn{
+        width: 180px;
+    }
+    .registration_container{
+        margin-left: 20px;
+    }
+    .set_deadline_btn{
+        width: 350px;
+    }
+    .next_btn_body{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/* INPUT 3 PAGE STYLING */
+.coordinator_name{
+    position: relative;
+    color: #6F7482;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    margin-top: 150px;
+}
+.event_coordinator_profile{
+    position: relative;
+    color: #6F7482;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.mobile_number{
+    position: relative;
+    color: #6F7482;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.email_id{
+    position: relative;
+    color: #6F7482;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.red_notice{
+    font-size: 10px;
+    color: red;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .page_heading {
+        text-align: left;
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .coordinator_name {
+        margin-left: 20px;
+    }
+
+    .Name_btn {
+        width: 350px;
+    }
+
+    .event_coordinator_profile {
+        margin-left: 20px;
+    }
+
+    .mobile_number {
+        margin-left: 20px;
+    }
+
+    .email_id {
+        margin-left: 20px;
+    }
+
+    .No_btn {
+        width: 350px;
+    }
+}
